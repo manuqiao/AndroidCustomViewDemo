@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:test="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello1"
+        />
+
+    <com.example.manuqiao.customviewdemo.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        test:textSize="40dp"
+        test:textColor="#00ff00"
+        />
+
+</LinearLayout>
